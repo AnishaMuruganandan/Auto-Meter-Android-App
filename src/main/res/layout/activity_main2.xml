@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.hashio.dev.autometer.Main2Activity"
+    android:id="@+id/RelatiaveLayout"
+    android:orientation="vertical">
+
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:checked="true"
+        android:clickable="true"
+        android:textOn="Night Time fare"
+        android:textOff="Day Time fare"
+        tools:layout_conversion_absoluteX="122dp"
+        tools:layout_conversion_absoluteY="16dp"
+        tools:layout_conversion_absoluteWidth="139dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="122dp" />
+
+    <ImageView
+        android:layout_width="344dp"
+        android:layout_height="335dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/auto"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="92dp"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textColor="#fd0303"
+        android:textSize="60px"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="115dp"
+        tools:layout_conversion_absoluteY="403dp"
+        tools:layout_conversion_absoluteWidth="153dp"
+        tools:layout_conversion_absoluteHeight="92dp"
+        tools:layout_editor_absoluteY="403dp"
+        tools:layout_editor_absoluteX="122dp" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/sunny"
+        android:id="@+id/i3"
+        android:adjustViewBounds="false"
+        tools:layout_conversion_absoluteX="16dp"
+        tools:layout_conversion_absoluteY="16dp"
+        tools:layout_conversion_absoluteWidth="55dp"
+        tools:layout_conversion_absoluteHeight="64dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+</android.support.constraint.ConstraintLayout>
